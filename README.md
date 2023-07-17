@@ -3,43 +3,41 @@ Tetris Game
 This is a simple Tetris game implemented in C#.
 
 ## Controls
-Z: Rotate the blocks.
-C: Hold blocks.
-Spacebar: Automatically drop blocks all the way down.
-How to Play
-Run the game executable (e.g., TetrisGame.exe).
-The game will start, and you will see the Tetris grid and the current falling block.
-Use the Z key to rotate the falling block clockwise.
-Press the C key to hold the current block, if desired.
-Press the Spacebar to instantly drop the falling block all the way down to the lowest possible position.
-The game will automatically detect when a row is completely filled with blocks and clear it.
-Your goal is to prevent the Tetris grid from filling up completely by clearing as many rows as possible.
-The game ends when a new falling block cannot enter the grid because it is obstructed by other blocks.
-Game Over
+<strong> Z: </strong> Rotate block.
+
+<strong> C: </strong> Hold block.
+
+<strong> Spacebar: </strong> Drop block all the way down.
+
+## How to Play
+1. Run the game executable (e.g., <strong> TetrisGame.exe </strong>).
+2. The game will start, and you will see the Tetris grid and the current falling block.
+3. Use the <strong> Z </strong> key to rotate the falling block clockwise.
+4. Press the <strong> C </strong> key to hold the current block, if desired.
+5. Press the <strong> Spacebar </strong> to instantly drop the falling block all the way down to the lowest possible position.
+6. The game will automatically detect when a row is completely filled with blocks and clear it.
+7. Your goal is to prevent the Tetris grid from filling up completely by clearing as many rows as possible.
+8. The game ends when a new falling block cannot enter the grid because it is obstructed by other blocks.
+## Game Over
 When the game ends, you will see your final score.
-Press any key to restart the game.
-Dependencies
+Press play again to restart the game.
+## Dependencies
 This Tetris game was implemented using C# programming language and may require the following dependencies:
 
-.NET Framework X.X or higher
-[List any additional dependencies, libraries, or frameworks used in your game]
-Building and Running the Game
+.NET Framework 6.0 or higher
+
+## Building and Running the Game
 To build and run the game from source, follow these steps:
 
-Clone the repository or download the source code.
-Open the solution file (e.g., TetrisGame.sln) in your preferred development environment (e.g., Visual Studio).
-Build the solution to compile the game.
-Run the compiled executable (e.g., TetrisGame.exe) to start the game.
-Acknowledgements
-[List any external resources, tutorials, or assets used in your game]
-[Give credit to any individuals or open-source projects you utilized]
-License
-[Specify the license under which your game is released, for example: MIT License, GNU General Public License, etc.]
+1. Clone the repository or download the source code.
+2. Open the solution file (e.g., <strong> TetrisGame.sln </strong>) in your preferred development environment (e.g., Visual Studio).
+3. Build the solution to compile the game.
+4. Run the compiled executable (e.g., <strong> TetrisGame.exe </strong>) to start the game.
 
-Contributing
-[Provide guidelines for contributing to your project if you would like others to contribute]
+## Acknowledgements
+Big thanks to <strong> OttoBotCode </strong> on Youtube for guiding me along the process:
 
-Bugs and Feedback
+Check out the video for yourself here: https://www.youtube.com/watch?v=jcUctrLC-7M
+
+## Bugs and Feedback
 If you encounter any bugs or have suggestions for improvement, please create an issue on the GitHub repository.
-
-Feel free to customize the README file according to your specific Tetris game implementation and any additional information you would like to provide.
