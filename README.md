@@ -2,7 +2,7 @@
 Tetris Game
 This is a simple Tetris game implemented in C#.
 
-Controls
+## Controls
 Z: Rotate the blocks.
 C: Hold blocks.
 Spacebar: Automatically drop blocks all the way down.
